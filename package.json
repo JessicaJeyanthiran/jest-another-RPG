@@ -2,12 +2,12 @@
   "name": "jest-another-rpg",
   "version": "1.0.0",
   "description": "",
-  "main": "index.js",
+  "main": "app.js",
   "scripts": {
     "test": "jest"
   },
   "repository": {
-    "type": "git",
+    "type": "git, commonjs",
     "url": "git+https://github.com/JessicaJeyanthiran/jest-another-RPG.git"
   },
   "author": "",
@@ -18,5 +18,9 @@
   "homepage": "https://github.com/JessicaJeyanthiran/jest-another-RPG#readme",
   "devDependencies": {
     "jest": "^29.4.1"
+  },
+  "dependencies": {
+    "inquirer": "^8.2.5",
+    "node-fetch": "^2.6.1"
   }
 }
